@@ -32,7 +32,7 @@ Basic usage::
 TODO's:
 -------
 
- * Make "django-template" project name configurable 
- * Change django-fluent-dashboard for django-admin-bootstrapped or bootstrap-django-admin
+ * [ ] Make "django-template" project name configurable 
+ * [x] Change django-fluent-dashboard for django-admin-bootstrapped or bootstrap-django-admin
 
 
