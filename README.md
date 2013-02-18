@@ -1,5 +1,5 @@
-Django Template
-===============
+Django Project Template
+=======================
 
 **Author:** Jose Jiménez <jjimenezlopez@gmail.com>  
 **Date:** 2012/10/21
@@ -23,13 +23,15 @@ Usage:
 Basic usage::
 
     # Create a project using the template
-    django-admin.py startproject --template=https://github.com/jjimenezlopez/django-project-template/archive/master.zip project_name
+    django-admin.py startproject --template=https://github.com/jjimenezlopez/django-project-template/archive/master.zip <project_name>
+
+Where <project_name> is the name of your new project.
 
 
 TODO's:
 -------
 
- - Make "django-template" project name configurable 
+ - ~~Make "django-template" project name configurable~~
  - ~~Change django-fluent-dashboard for django-admin-bootstrapped or bootstrap-django-admin~~
 
 
