@@ -22,10 +22,8 @@ Usage:
 
 Basic usage::
 
-    # Clone repository
-    git clone http://github.com/jjimenezlopez/django-project-template
     # Create a project using the template
-    django-admin.py startproject --template=django-project-template project_name
+    django-admin.py startproject --template=https://github.com/jjimenezlopez/django-project-template/archive/master.zip project_name
 
 
 TODO's:
