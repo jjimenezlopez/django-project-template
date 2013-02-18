@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Django settings for django-template project.
+# Django settings for {{ project_name }} project.
 
 import os
-APPDIR = os.path.join(os.getcwd(), 'django-template')
+APPDIR = os.path.join(os.getcwd(), '{{ project_name }}')
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -100,10 +100,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'django-template.urls'
+ROOT_URLCONF = '{{ project_name }}.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'django-template.wsgi.application'
+WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -124,7 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'django-template.app',
+    '{{ project_name }}.app',
 
     # south
     'south',

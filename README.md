@@ -15,8 +15,7 @@ This project includes:
 Dependences:
 ------------
 
- * South
- * Django Fluent Dashboard --> https://github.com/edoburu/django-fluent-dashboard
+See dependences.txt file.
 
 Usage:
 ------
