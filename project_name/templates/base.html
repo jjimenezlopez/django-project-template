@@ -20,16 +20,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand" href="{% url home %}">Name</a>
+                    <a class="brand" href="{% url "home" %}">Name</a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li class="active">
-                            <a href="{% url home %}">{% trans "Home" %}</a>
+                            <a href="{% url "home" %}">{% trans "Home" %}</a>
                             </li>
                         </ul>
                     </div>
                     {% if not user.is_authenticated %}
-                        <form action="{% url login %}" method="post" accept-charset="utf-8" class="navbar-form pull-right">
+                        <form action="{% url "login" %}" method="post" accept-charset="utf-8" class="navbar-form pull-right">
                             <input type="text" name="username" placeholder="{% trans 'Username' %}" class="input-small"/>
                             <input type="password" name="password" placeholder="{% trans 'Password' %}" class="input-small" />
                             {% csrf_token %}
@@ -47,7 +47,7 @@
                                     {% if user.is_staff %}
                                     <li><a href="/admin/">{% trans "Administration" %}</a></li>
                                     {% endif %}
-                                    <li><a tabindex="-1" href="{% url logout %}">{% trans "Logout" %}</a></li>
+                                    <li><a tabindex="-1" href="{% url "logout" %}">{% trans "Logout" %}</a></li>
                                 </ul>
                             </li>
                         </ul>
